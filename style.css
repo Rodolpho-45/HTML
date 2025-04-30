@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('https://pbs.twimg.com/media/EBdRF17XUAIeuw2.jpg:large');
+    background-image: url(20250430_162933.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,9 +13,11 @@ body {
 
 
 .texto {
-    color: rgb(131, 131, 131);
-    font-size: large;
-    font-family: sans-serif
+    color:black;
+    -webkit-text-stroke: white 0.4px;
+    font-size: 32px;
+    font-family: sans-serif;
+    backdrop-filter: blur(5px);
 }
 
 .link {
@@ -26,5 +28,6 @@ body {
 
 .sub {
     color: rgb(2, 0, 112);
+    -webkit-text-stroke: black 0.4px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
