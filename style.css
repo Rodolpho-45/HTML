@@ -11,6 +11,17 @@ body {
   background-attachment: fixed;
 }
 
+.botao:hover {
+    transform: translateY(-5px);
+    transform: scale(125%);
+    transition: 0.6s;
+}
+
+.link:hover {
+    color: blue;
+    transition: 0.6s;
+}
+
 
 .texto {
     color:black;
