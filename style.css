@@ -1,30 +1,51 @@
 .immg {
     text-align: center;
-    
 }
 
 body {
     background-image: url('https://pbs.twimg.com/media/EBdRF17XUAIeuw2.jpg:large');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
-
 
 .texto {
     color: white;
     font-size: large;
-    font-family: sans-serif
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
 }
 
 .link {
     color: black;
     font-size: 3cm;
     text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
 }
 
 .sub {
     color: rgb(2, 0, 112);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+    text-align: center;
+}
+
+/* Estilos para telas menores (celulares) */
+@media (max-width: 768px) {
+    .texto {
+        font-size: medium;
+    }
+
+    .link {
+        font-size: 1.5cm;
+    }
+
+    body {
+        background-attachment: scroll; /* melhora o desempenho no celular */
+    }
+}
