@@ -1,0 +1,30 @@
+.immg {
+    text-align: center;
+    
+}
+
+body {
+    background-image: url('https://pbs.twimg.com/media/EBdRF17XUAIeuw2.jpg:large');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.texto {
+    color: white;
+    font-size: large;
+    font-family: sans-serif
+}
+
+.link {
+    color: black;
+    font-size: 3cm;
+    text-decoration: none;
+}
+
+.sub {
+    color: rgb(2, 0, 112);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
